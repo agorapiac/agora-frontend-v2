@@ -1,8 +1,8 @@
-import SidebarIcon from "./SidebarIcon";
-import { TbHome2 } from "react-icons/tb";
-import { BiSolidSearchAlt2 } from "react-icons/bi";
-import { BsPlus, BsGearFill } from "react-icons/bs";
-import { LuMessagesSquare } from "react-icons/lu";
+import SidebarIcon from './NavbarIcon';
+import { TbHome2 } from 'react-icons/tb';
+import { BiSolidSearchAlt2 } from 'react-icons/bi';
+import { BsPlus, BsGearFill } from 'react-icons/bs';
+import { LuMessagesSquare } from 'react-icons/lu';
 
 const Divider = () => <hr className="sidebar-hr" />;
 

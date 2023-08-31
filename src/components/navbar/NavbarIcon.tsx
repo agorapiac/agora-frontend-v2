@@ -3,7 +3,7 @@ interface SidebarIconProps {
   label?: string;
 }
 
-const SidebarIcon = ({ icon, label = "tooltip" }: SidebarIconProps) => {
+const SidebarIcon = ({ icon, label = 'tooltip' }: SidebarIconProps) => {
   return (
     <div className="sidebar-icon group">
       {icon}
