@@ -1,14 +1,17 @@
+import { Link } from 'react-router-dom';
+
 interface SidebarIconProps {
   icon: JSX.Element;
   label?: string;
+  href?: string;
 }
 
-const SidebarIcon = ({ icon, label = 'tooltip' }: SidebarIconProps) => {
+const SidebarIcon = ({ icon, href = '#', label = 'tooltip' }: SidebarIconProps) => {
   return (
-    <div className="sidebar-icon group">
-      {icon}
+    <Link to={href} className="sidebar-icon group">
       <span className="sidebar-tooltip group-hover:scale-100">{label}</span>
-    </div>
+      {icon}
+    </Link>
   );
 };
 
