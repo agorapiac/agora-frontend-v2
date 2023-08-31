@@ -42,3 +42,7 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-gray-500 dark:bg-green-400;
 }
+
+:root {
+  background-color: rgb(55, 65, 81)
+}
